@@ -35,14 +35,14 @@ body {
 
 .number {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ced4da;
 }
 
 .title,
 .icon {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .content-box {
@@ -67,6 +67,6 @@ body {
 }
 
 .open .number,
-.open .text {
+.open .title {
   color: #087f5b;
 }

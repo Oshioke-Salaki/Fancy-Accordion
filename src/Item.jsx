@@ -9,7 +9,7 @@ function Item({ num, title, text }) {
       onClick={() => setIsOpen((cur) => !cur)}
     >
       <p className="number">{num < 9 ? `0${num}` : num}</p>
-      <h1 className={isOpen ? "text title" : "title"}>{title}</h1>
+      <h1 className="title">{title}</h1>
       <p className="icon">{isOpen ? "-" : "+"}</p>
 
       {isOpen && <div className="content-box">{text}</div>}
